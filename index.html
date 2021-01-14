@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>Yannick Akam Ze - Full Stack Web Developer</header><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6">
+                <img class="img-responsive" src="img.png">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <p id="p1">ABOUT ME:</p>
+                <p id="p2">My name is Yannick, and I'm a certified software developer from Bethel school of Technology, currently living in New York.
+                    My primary focus and inspiration for my studies was full stack Web and application development. 
+                    I am very passionate about Web Development, and strive to better myself as a Software developer, and the development community as a whole. 
+                    I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques. 
+                    In my free time, I study human nature and their interaction with the universe for great achiements.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cardSocialMedia">
+                    <a href="https://github.com/ABBAYAHINSPIRED" class="fab fa-github" aria-hidden="true"></a>
+                    <a href="https://www.linkedin.com/in/yannick-azcode/" class="fab fa-linkedin" 
+                    aria-hidden="true"></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="list-group" id="ul1">MY SKILLS:
+                    <li class="list-group-item list-group-item-success">Java Script</li>
+                    <li class="list-group-item list-group-item-info">HTML</li>
+                    <li class="list-group-item list-group-item-warning">CSS</li>
+                    <li class="list-group-item list-group-item-danger">BOOTSTRAP</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                GitHub username:
+                <input type="text" id="username" value="ABBAYAHINSPIRED" />
+                <button onclick="loadRepos()">Load Repos</button>
+                <ul id="repos">
+                    <li>
+                        <a href="{repo.html_url}"></a>
+                    </li>
+                    <p id="name0"></p>
+                    <p id="name1"></p>
+                    <p id="name2"></p>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><br><br><br>
+
+    <div class="footer">
+        <p>Contact me: </p>
+        <i class="fas fa-envelope">yannickakam2002@gmail.com</i>
+        <p>COPYRIGHT &copy; Yannick Akam Ze 2020</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
